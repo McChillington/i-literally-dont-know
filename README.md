@@ -1,6 +1,10 @@
 # i-literally-dont-know
 
-this is the most amazing github to ever land the planet earth
+this is the most amazing github to ever land the planet eart
+
+# most amazing discord server here
+
+https://discord.gg/6bKQqDnf
 
 # please give me free robux
 
