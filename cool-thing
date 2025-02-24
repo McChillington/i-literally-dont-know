@@ -49,3 +49,4 @@ local Button = Tab:CreateButton({
 	 setclipboard("loadstring(game:HttpGet("https://raw.githubusercontent.com/McChillington/i-literally-dont-know/refs/heads/main/cool-thing",true))()"
    end,
 })
+local Label = Tab:CreateLabel("made by WatermelonQ", 0, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
