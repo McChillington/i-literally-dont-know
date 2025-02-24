@@ -46,6 +46,6 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "Copy Script",
    Callback = function()
-	 setclipboard("loadstring(game:HttpGet("https://raw.githubusercontent.com/McChillington/i-literally-dont-know/refs/heads/main/cool-thing",true))()")
+	 setclipboard('loadstring(game:HttpGet("https://raw.githubusercontent.com/McChillington/i-literally-dont-know/refs/heads/main/cool-thing",true))()')
    end,
 })
