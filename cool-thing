@@ -66,8 +66,3 @@ local Button = Tab:CreateButton({
    Rayfield:Destroy()
    end,
 })
-local Section = Tab:CreateSection("Made by WatermelonQ")
---admin scripts tab
-local Tab = Window:CreateTab("Admin Scripts", 14028778293) -- Title, Image
-local Section = Tab:CreateSection("Best admin scripts")
-})
