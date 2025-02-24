@@ -34,3 +34,12 @@ local Window = Rayfield:CreateWindow({
       Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
+--home tab
+local Tab = Window:CreateTab("Home", 98389898506367) -- Title, Image
+local Section = Tab:CreateSection("Thank you for using watermelon hub.")
+local Button = Tab:CreateButton({
+   Name = "Copy Discord",
+   Callback = function()
+   setclipboard("https://discord.gg/HZb2p68bMs")
+   end,
+})
