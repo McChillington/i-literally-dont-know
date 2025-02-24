@@ -62,7 +62,7 @@ local Button = Tab:CreateButton({
 })
 local Button = Tab:CreateButton({
    Name = "Kill Gui",
-   Callback = function()
+	   Callback = function()
    Rayfield:Destroy()
    end,
 })
@@ -70,9 +70,4 @@ local Section = Tab:CreateSection("Made by WatermelonQ")
 --admin scripts tab
 local Tab = Window:CreateTab("Admin Scripts", 14028778293) -- Title, Image
 local Section = Tab:CreateSection("Best admin scripts")
-local Button = Tab:CreateButton({
-   Name = "Infinite Yield",
-   Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-   end,
 })
