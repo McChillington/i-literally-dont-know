@@ -41,15 +41,14 @@ local Button = Tab:CreateButton({
    Name = "Copy Discord",
    Callback = function()
    setclipboard("https://discord.gg/HZb2p68bMs")
-	Rayfield:Notify({
-   Title = "Copied!",
-   Content = "Your invite has been copied.",
-   Duration = 6.5,
-   Image = 14028778293,
 })
    end,
 })
-
+local Button = Tab:CreateButton({
+   Name = "Copy Script",
+   Callback = function()
+	 setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/McChillington/i-literally-dont-know/refs/heads/main/cool-thing',true))()")
+})
 local Button = Tab:CreateButton({
    Name = "Kill Gui",
 	   Callback = function()
