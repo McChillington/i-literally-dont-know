@@ -49,4 +49,9 @@ local Button = Tab:CreateButton({
 	 setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/McChillington/i-literally-dont-know/refs/heads/main/cool-thing',true))()")
    end,
 })
-local Label = Tab:CreateLabel("MADE BY WatermelonQ", "rewind")
+local Button = Tab:CreateButton({
+   Name = "Kill Gui",
+   Callback = function()
+   Rayfield:Destroy()
+   end,
+})
