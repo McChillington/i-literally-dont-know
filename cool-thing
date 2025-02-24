@@ -35,7 +35,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 --home tab
-local Tab = Window:CreateTab("Home", 98389898506367) -- Title, Image
+local Tab = Window:CreateTab("Home", 14028778293) -- Title, Image
 local Section = Tab:CreateSection("Thank you for using watermelon hub.")
 local Button = Tab:CreateButton({
    Name = "Copy Discord",
