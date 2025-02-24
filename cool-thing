@@ -48,6 +48,7 @@ local Button = Tab:CreateButton({
    Name = "Copy Script",
    Callback = function()
 	 setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/McChillington/i-literally-dont-know/refs/heads/main/cool-thing',true))()")
+	end,
 })
 local Button = Tab:CreateButton({
    Name = "Kill Gui",
